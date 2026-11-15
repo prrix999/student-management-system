@@ -223,7 +223,7 @@ def update_student_details(student):
     heading = "UPDATE STUDENT DETAILS"
     print(f"\n\n{"-"*40} \n{heading:^40}\n {"-"*40}\n\n\n")
     while True:
-        print(f"1. Update Student Name\n2. Update Student Phone Number\n3. Update Student Email\n4. Upadte Student's Guardian Name\n5. Update Student's Guardian Phone Number\n6. Update Student's Guardian Email\n7. EXIT")
+        print(f"1. Update Student Name\n2. Update Student Phone Number\n3. Update Student Email\n4. Update Student's Guardian Name\n5. Update Student's Guardian Phone Number\n6. Update Student's Guardian Email\n7. EXIT")
         sub_option = get_valid_value("option")
         if sub_option == 1:
             print(f"\nOLD NAME: {student["Student Name"]}\nUPDATING...")
@@ -293,8 +293,8 @@ def get_individual_report(student):
     if all(score is not None for score in student["Academic Scores"].values()):
         total_sum = sum(student["Academic Scores"].values())
         print(f"\nTOTAL SCORE: {total_sum}")
-        perecentage_total_score = round((total_sum/300)*100, 2)
-        print(f"Percentage: {perecentage_total_score}%")
+        percentage_total_score = round((total_sum/300)*100, 2)
+        print(f"Percentage: {percentage_total_score}%")
         highest_sub = max(student["Academic Scores"], key=student["Academic Scores"].get)
         print(f"Highest: {highest_sub}({student["Academic Scores"][highest_sub]})\n")
         lowest_sub = min(student["Academic Scores"], key=student["Academic Scores"].get)
@@ -306,11 +306,11 @@ def get_individual_report(student):
             print("Remark: Excellent")
         elif percentage_total_score >= 70:
             print("Remark: Very Good")
-        elif perecentage_total_score >= 60:
+        elif percentage_total_score >= 60:
             print("Remark: Good")
-        elif perecentage_total_score >= 50:
+        elif percentage_total_score >= 50:
             print("Remark: Average")
-        elif perecentage_total_score >= 40:
+        elif percentage_total_score >= 40:
             print("Remark: Below Average")
         else:
             print("Remark: Need Improvement")
@@ -404,19 +404,19 @@ def get_class_performance_distribution():
 
     for student in student_with_registered_score:
         total_sum = sum(student["Academic Scores"].values())
-        perecentage_total_score = round((total_sum/300)*100, 2)
+        percentage_total_score = round((total_sum/300)*100, 2)
 
-        if perecentage_total_score >= 90:
+        if percentage_total_score >= 90:
             performance_dict["Outstanding"] += 1
-        elif perecentage_total_score >= 80:
+        elif percentage_total_score >= 80:
             performance_dict["Excellent"] += 1
-        elif perecentage_total_score >= 70:
+        elif percentage_total_score >= 70:
             performance_dict["Very Good"] += 1
-        elif perecentage_total_score >= 60:
+        elif percentage_total_score >= 60:
             performance_dict["Good"] += 1
-        elif perecentage_total_score >= 50:
+        elif percentage_total_score >= 50:
             performance_dict["Average"] += 1
-        elif perecentage_total_score >= 40:
+        elif percentage_total_score >= 40:
             performance_dict["Below Average"] += 1
         else:
             performance_dict["Need Improvement"] += 1
@@ -462,7 +462,7 @@ while True:
             updated_score = update_academic_score()
             with open("students_record.json", "w") as file:
                 students_record = json.dump(students, file, indent=4)
-            print(f"Successfully updated student's choosen subject's score!\n view the updated score -> {updated_score}")
+            print(f"Successfully updated student's chosen subject's score!\n view the updated score -> {updated_score}")
 
 # VIEW TOTAL STUDENTS
     elif option == 3:
