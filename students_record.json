@@ -1,0 +1,100 @@
+[
+    {
+        "Student ID": 100,
+        "Student Name": "Abhijit Roy",
+        "Student Number": "7994560258",
+        "Student Email": "abhijit328@yahoo.com",
+        "Guardian Name": "Bappu Roy",
+        "Guardian Number": "7894561258",
+        "Guardian Email": "bappu999@gmail.com",
+        "Academic Scores": {
+            "Python": 95.0,
+            "Mathematics": 25.0,
+            "Physics": 23.0
+        }
+    },
+    {
+        "Student ID": 101,
+        "Student Name": "Rio Dey",
+        "Student Number": "7418529635",
+        "Student Email": "Rio123@gmail.com",
+        "Guardian Name": "Mappu Dey",
+        "Guardian Number": "7894562356",
+        "Guardian Email": "mappu768@gamil.com",
+        "Academic Scores": {
+            "Python": 63.0,
+            "Mathematics": 59.0,
+            "Physics": 45.0
+        }
+    },
+    {
+        "Student ID": 102,
+        "Student Name": "Jit Das",
+        "Student Number": "8564235971",
+        "Student Email": "Jit534@gmail.com",
+        "Guardian Name": "Kbappu Das",
+        "Guardian Number": "6547891235",
+        "Guardian Email": "kbappu888@gmail.com",
+        "Academic Scores": {
+            "Python": 78.0,
+            "Mathematics": 52.0,
+            "Physics": 26.0
+        }
+    },
+    {
+        "Student ID": 103,
+        "Student Name": "Sabir Saha",
+        "Student Number": "2589631475",
+        "Student Email": "sabir555@gmail.com",
+        "Guardian Name": "Sbappu Saha",
+        "Guardian Number": "4125637895",
+        "Guardian Email": "sbappu333@gmail.com",
+        "Academic Scores": {
+            "Python": 85.0,
+            "Mathematics": 50.0,
+            "Physics": 75.0
+        }
+    },
+    {
+        "Student ID": 104,
+        "Student Name": "Tushar Saha",
+        "Student Number": "1475236984",
+        "Student Email": "tushar423@gmail.com",
+        "Guardian Name": "Tbappu Saha",
+        "Guardian Number": "7534128965",
+        "Guardian Email": "Tbappu324@gmail.com",
+        "Academic Scores": {
+            "Python": 95.0,
+            "Mathematics": 95.0,
+            "Physics": 56.0
+        }
+    },
+    {
+        "Student ID": 105,
+        "Student Name": "Chana Sen",
+        "Student Number": "9517486325",
+        "Student Email": "chana987@gmail.com",
+        "Guardian Name": "Cbappu Sen",
+        "Guardian Number": "8521597469",
+        "Guardian Email": "Cbappu6656@gmail.com",
+        "Academic Scores": {
+            "Python": 100.0,
+            "Mathematics": 99.0,
+            "Physics": 99.0
+        }
+    },
+    {
+        "Student ID": 106,
+        "Student Name": "Zan Yuan",
+        "Student Number": "2684753958",
+        "Student Email": "zen567@outlook.com",
+        "Guardian Name": "Huan Yuan",
+        "Guardian Number": "3574168594",
+        "Guardian Email": "huan090@gmail.com",
+        "Academic Scores": {
+            "Python": 86.0,
+            "Mathematics": 82.0,
+            "Physics": 79.0
+        }
+    }
+]
